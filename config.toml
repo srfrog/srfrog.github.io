@@ -1,0 +1,23 @@
+baseURL = "https://srfrog.me/"
+languageCode = "en-us"
+title = "srfrog.me"
+theme = "hugo-theme-console"
+publishDir = "docs"
+
+[params]
+  description = "srfrog blogs about technology, security, privacy, and everything in between."
+
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  [[params.navlinks]]
+  name = "photos/"
+  url = "photos/"

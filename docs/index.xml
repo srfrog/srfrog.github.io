@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>srfrog.me</title>
+    <link>https://srfrog.me/</link>
+    <description>Recent content on srfrog.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://srfrog.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arizona, US</title>
+      <link>https://srfrog.me/photos/arizona-us/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://srfrog.me/photos/arizona-us/</guid>
+      <description>The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. The canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://srfrog.me/about/</link>
+      <pubDate>Fri, 03 Jan 2020 04:05:33 +0000</pubDate>
+      
+      <guid>https://srfrog.me/about/</guid>
+      <description>pre.froggie { display: inline-block; float: right; color: #0f0; background: #111; width: 116px; margin-left: 15px; border-radius: 20px; }  @..@ (\--/) (.__I&amp;rsquo;m an engineer, a leader, an architect, huge data geek, a security enthusiast, pragmatic technologist, full-time paranoid, a ghost.
+Freedom isn&amp;rsquo;t free. Privacy can&amp;rsquo;t be regained. Fight for freedom and protect your privacy.
+The comments posted on this blog represent only my opinions and not those of my current employer.</description>
+    </item>
+    
+  </channel>
+</rss>
