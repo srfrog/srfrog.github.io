@@ -1,6 +1,6 @@
-baseURL = "https://srfrog.me/"
+baseURL = "https://srfrog.dev/"
 languageCode = "en-us"
-title = "srfrog.me"
+title = "srfrog.dev"
 theme = "hugo-theme-console"
 publishDir = "docs"
 
