@@ -3,7 +3,6 @@ published: true
 layout: post
 title: Gus' Paradox
 date: 'Sun, 19 Sep 2021 02:18:53 -0400'
-category: meta
 tags: theory
 mathjax: true
 ---
