@@ -1,13 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="canonical" href="https://castlebytes.com"/>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="refresh" content="0;url=https://castlebytes.com" />
-</head>
-<body>
-    <h1>Redirecting...</h1>
-      <a href="https://castlebytes.com">Click here if you are not redirected.<a>
-      <script>location='https://castlebytes.com'</script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="3;url=https://castlebytes.com"><title>Redirecting...</title><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:linear-gradient(135deg,#667eea 0,#764ba2 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;color:#fff}.container{text-align:center;padding:2rem}.spinner{width:60px;height:60px;border:4px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 2rem}@keyframes spin{to{transform:rotate(360deg)}}.message{font-size:1.5rem;font-weight:500;letter-spacing:-.02em;line-height:1.5}.destination{margin-top:1rem;font-size:1rem;opacity:.9;font-weight:400}@media (max-width:640px){.message{font-size:1.25rem}.destination{font-size:.875rem}}</style></head><body><div class="container"><div class="spinner"></div><div class="message">Redirecting you to <span id="domain">castlebytes.com</span></div><div class="destination">Please wait...</div></div><script>// Configuration
+        const REDIRECT_URL = 'https://castlebytes.com'; // Change this to your destination URL
+        const REDIRECT_DELAY = 3000; // Delay in milliseconds (3000 = 3 seconds)
+
+        // Extract domain from URL for display
+        function getDomainFromUrl(url) {
+            try {
+                const urlObj = new URL(url);
+                return urlObj.hostname;
+            } catch (e) {
+                return url;
+            }
+        }
+
+        // Update the domain text
+        document.getElementById('domain').textContent = getDomainFromUrl(REDIRECT_URL);
+
+        // Perform redirect after delay
+        setTimeout(() => {
+            window.location.href = REDIRECT_URL;
+        }, REDIRECT_DELAY);</script></body></html>
